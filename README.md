@@ -1,1 +1,8 @@
-# boostcamp_s
+# boostcamp_study
+Naver Boostcamp study repository
+
+### Member
+- JiYoung Lee
+- HyungJun Choi
+
+### Schedul
