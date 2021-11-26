@@ -5,4 +5,10 @@ Naver Boostcamp study repository
 - JiYoung Lee
 - HyungJun Choi
 
-### Schedul
+### Schedule
+Every weeks  
+Mon, Wed, Fri 14:00 ~ 16:00 
+
+### Algorithm Platform
+baekjoon online judge  
+<https://www
