@@ -7,3 +7,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Q10799 {
+    public void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        String in
