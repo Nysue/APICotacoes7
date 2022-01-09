@@ -10,4 +10,7 @@ public class Q10799 {
     public void main() {
         Scanner scanner = new Scanner(System.in);
 
-        String in
+        String input = scanner.next();
+        Stack<Character> stack = new Stack<>();
+        int sticks = 0;
+        // n
