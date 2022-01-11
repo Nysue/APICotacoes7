@@ -13,4 +13,7 @@ public class Q10799 {
         String input = scanner.next();
         Stack<Character> stack = new Stack<>();
         int sticks = 0;
-        // n
+        // need to memorize before character
+        char before = ' ';
+
+        for(int i=0; i < input.
