@@ -16,4 +16,8 @@ public class Q10799 {
         // need to memorize before character
         char before = ' ';
 
-        for(int i=0; i < input.
+        for(int i=0; i < input.length(); i++){
+            char c = input.charAt(i);
+
+            switch(c){
+           
