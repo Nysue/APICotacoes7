@@ -20,4 +20,7 @@ public class Q10799 {
             char c = input.charAt(i);
 
             switch(c){
-           
+                case '(':{
+                    // push
+                    stack.push('(');
+              
