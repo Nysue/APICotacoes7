@@ -28,4 +28,7 @@ public class Q10799 {
                 }
                 case ')':{
                     // if laser
-                    // parenthesis must be balanced, don't need to 
+                    // parenthesis must be balanced, don't need to check stack is empty
+                    if(before == '(') {
+                        stack.pop();
+                    
