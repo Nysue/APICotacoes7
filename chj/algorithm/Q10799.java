@@ -23,4 +23,8 @@ public class Q10799 {
                 case '(':{
                     // push
                     stack.push('(');
-              
+                    before = '(';
+                    break;
+                }
+                case ')':{
+   
