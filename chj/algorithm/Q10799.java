@@ -27,4 +27,5 @@ public class Q10799 {
                     break;
                 }
                 case ')':{
-   
+                    // if laser
+                    // parenthesis must be balanced, don't need to 
