@@ -31,4 +31,7 @@ public class Q10799 {
                     // parenthesis must be balanced, don't need to check stack is empty
                     if(before == '(') {
                         stack.pop();
-                    
+                        sticks += stack.size();
+                        before = ')';
+                    }
+                    // if end o
