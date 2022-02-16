@@ -37,4 +37,7 @@ public class Q10799 {
                     // if end of stick
                     else {
                         stack.pop();
-       
+                        sticks++;
+                        before = ')';
+                    }
+         
