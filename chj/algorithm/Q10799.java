@@ -40,4 +40,8 @@ public class Q10799 {
                         sticks++;
                         before = ')';
                     }
-         
+                    break;
+                }
+            }
+        }
+        System.out.println(stic
