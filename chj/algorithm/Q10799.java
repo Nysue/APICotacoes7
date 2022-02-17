@@ -44,4 +44,6 @@ public class Q10799 {
                 }
             }
         }
-        System.out.println(stic
+        System.out.println(sticks);
+    }
+}
