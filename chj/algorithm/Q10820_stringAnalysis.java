@@ -10,4 +10,7 @@ import java.util.Scanner;
 
 public class Q10820_stringAnalysis {
     public void main() {
-        BufferedReader br = new Buffere
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        final int SPACE = 32;
+        final int L
