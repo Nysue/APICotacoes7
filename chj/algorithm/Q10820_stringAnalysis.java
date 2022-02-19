@@ -8,4 +8,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-publ
+public class Q10820_stringAnalysis {
+    public void main() {
+        BufferedReader br = new Buffere
