@@ -21,3 +21,8 @@ public class Q10820_stringAnalysis {
         final int NINE = 57;
 
         int spaceCounts = 0;
+        int largeCounts = 0;
+        int smallCounts = 0;
+        int intCounts = 0;
+
+        ArrayList<String> s
