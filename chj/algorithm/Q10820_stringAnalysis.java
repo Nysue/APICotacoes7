@@ -16,4 +16,8 @@ public class Q10820_stringAnalysis {
         final int LARGE_A = 65;
         final int LARGE_Z = 90;
         final int SMALL_A = 97;
-        final int SMA
+        final int SMALL_Z = 122;
+        final int ZERO = 48;
+        final int NINE = 57;
+
+        int spaceCounts = 0;
