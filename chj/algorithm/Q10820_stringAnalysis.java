@@ -25,4 +25,8 @@ public class Q10820_stringAnalysis {
         int smallCounts = 0;
         int intCounts = 0;
 
-        ArrayList<String> s
+        ArrayList<String> strings = new ArrayList<>();
+
+        String string;
+        try {
+            while ((string = br.read
