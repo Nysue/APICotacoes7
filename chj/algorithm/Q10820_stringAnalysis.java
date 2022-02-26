@@ -29,4 +29,5 @@ public class Q10820_stringAnalysis {
 
         String string;
         try {
-            while ((string = br.read
+            while ((string = br.readLine()) != null ) {
+                for (int i = 0; i < string.length(); i++) 
