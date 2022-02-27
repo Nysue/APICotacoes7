@@ -30,4 +30,7 @@ public class Q10820_stringAnalysis {
         String string;
         try {
             while ((string = br.readLine()) != null ) {
-                for (int i = 0; i < string.length(); i++) 
+                for (int i = 0; i < string.length(); i++) {
+                    int ascii = string.charAt(i);
+
+                    if(ascii == SPACE) sp
