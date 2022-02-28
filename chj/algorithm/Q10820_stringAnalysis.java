@@ -34,4 +34,5 @@ public class Q10820_stringAnalysis {
                     int ascii = string.charAt(i);
 
                     if(ascii == SPACE) spaceCounts++;
-                    else if (LARGE_A <= ascii && ascii <= LARGE_Z) largeCou
+                    else if (LARGE_A <= ascii && ascii <= LARGE_Z) largeCounts++;
+                    else if (SMALL_A <= ascii && ascii <= SMALL_Z) smallCount
