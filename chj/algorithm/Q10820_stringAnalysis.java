@@ -35,4 +35,6 @@ public class Q10820_stringAnalysis {
 
                     if(ascii == SPACE) spaceCounts++;
                     else if (LARGE_A <= ascii && ascii <= LARGE_Z) largeCounts++;
-                    else if (SMALL_A <= ascii && ascii <= SMALL_Z) smallCount
+                    else if (SMALL_A <= ascii && ascii <= SMALL_Z) smallCounts++;
+                    else if (ZERO <= ascii && ascii <= NINE) intCounts++;
+                }
