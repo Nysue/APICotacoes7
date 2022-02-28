@@ -39,4 +39,6 @@ public class Q10820_stringAnalysis {
                     else if (ZERO <= ascii && ascii <= NINE) intCounts++;
                 }
 
-                System.out.println(String.format("%d %d %d %d", smallCounts, largeCounts
+                System.out.println(String.format("%d %d %d %d", smallCounts, largeCounts, intCounts, spaceCounts));
+                smallCounts = 0;
+                larg
