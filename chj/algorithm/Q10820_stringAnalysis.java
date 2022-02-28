@@ -38,3 +38,5 @@ public class Q10820_stringAnalysis {
                     else if (SMALL_A <= ascii && ascii <= SMALL_Z) smallCounts++;
                     else if (ZERO <= ascii && ascii <= NINE) intCounts++;
                 }
+
+                System.out.println(String.format("%d %d %d %d", smallCounts, largeCounts
