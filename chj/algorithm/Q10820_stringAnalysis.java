@@ -41,4 +41,9 @@ public class Q10820_stringAnalysis {
 
                 System.out.println(String.format("%d %d %d %d", smallCounts, largeCounts, intCounts, spaceCounts));
                 smallCounts = 0;
-                larg
+                largeCounts = 0;
+                intCounts = 0;
+                spaceCounts = 0;
+            }
+        }
+        cat
