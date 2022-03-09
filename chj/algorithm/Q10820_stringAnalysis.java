@@ -46,4 +46,8 @@ public class Q10820_stringAnalysis {
                 spaceCounts = 0;
             }
         }
-        cat
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
