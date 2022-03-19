@@ -20,4 +20,10 @@ public class Q10844_easyStepNumber {
         if (length == N) dp++;
         else {
             if (selected > 0) dpf(length + 1, selected - 1);
-       
+            if (selected < 9) dpf(length + 1, selected + 1);
+        }
+    }*/
+
+
+    /*private int N;
+    private in
