@@ -13,4 +13,8 @@ public class Q10844_easyStepNumber {
 
         for(int i=1; i<=9; i++) dpf(1, i);
 
-        Syst
+        System.out.println(dp);
+    }
+
+    private void dpf(int length, int selected) {
+        if (length == N) dp+
