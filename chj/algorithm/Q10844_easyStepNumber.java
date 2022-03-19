@@ -17,4 +17,7 @@ public class Q10844_easyStepNumber {
     }
 
     private void dpf(int length, int selected) {
-        if (length == N) dp+
+        if (length == N) dp++;
+        else {
+            if (selected > 0) dpf(length + 1, selected - 1);
+       
