@@ -26,4 +26,8 @@ public class Q10844_easyStepNumber {
 
 
     /*private int N;
-    private in
+    private int[][] dp;
+
+    public void main() {
+        Scanner scanner = new Scanner(System.in);
+        N = sc
