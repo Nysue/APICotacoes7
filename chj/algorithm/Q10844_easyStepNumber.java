@@ -34,4 +34,7 @@ public class Q10844_easyStepNumber {
         dp = new int[N + 1][10];
 
         // 길이가 1인 경우
-        for (int 
+        for (int i = 1; i <= 9; i++) dp[1][i] = 1;
+
+        // dp를 채운다
+        for (int i = 0; i <= 9; 
