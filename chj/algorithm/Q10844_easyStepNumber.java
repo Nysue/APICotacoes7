@@ -30,4 +30,8 @@ public class Q10844_easyStepNumber {
 
     public void main() {
         Scanner scanner = new Scanner(System.in);
-        N = sc
+        N = scanner.nextInt();
+        dp = new int[N + 1][10];
+
+        // 길이가 1인 경우
+        for (int 
