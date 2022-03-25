@@ -37,4 +37,9 @@ public class Q10844_easyStepNumber {
         for (int i = 1; i <= 9; i++) dp[1][i] = 1;
 
         // dp를 채운다
-        for (int i = 0; i <= 9; 
+        for (int i = 0; i <= 9; i++) {
+            dpf(2, i);
+        }
+
+        // 길이가 N인 경우의 수를 합한다.
+        int sum 
