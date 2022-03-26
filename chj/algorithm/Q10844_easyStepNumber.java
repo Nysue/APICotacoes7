@@ -45,4 +45,9 @@ public class Q10844_easyStepNumber {
         int sum = 0;
         for (int i = 0; i <= 9; i++) {
             sum += dp[N][i];
-     
+        }
+        System.out.println(sum);
+    }
+
+    private void dpf(int length, int last) {
+        if (le
