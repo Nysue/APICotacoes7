@@ -42,4 +42,7 @@ public class Q10844_easyStepNumber {
         }
 
         // 길이가 N인 경우의 수를 합한다.
-        int sum 
+        int sum = 0;
+        for (int i = 0; i <= 9; i++) {
+            sum += dp[N][i];
+     
