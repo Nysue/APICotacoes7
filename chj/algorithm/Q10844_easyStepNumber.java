@@ -57,4 +57,6 @@ public class Q10844_easyStepNumber {
                 dpf(length + 1, last + 1);
             } else if (last == 9) {
                 dp[length][last] = dp[length - 1][last - 1];
-                dpf(length + 1, 
+                dpf(length + 1, last - 1);
+            } else {
+                dp[length][last] = (dp[length - 1][last - 1] + dp
