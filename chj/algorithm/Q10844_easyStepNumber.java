@@ -50,4 +50,7 @@ public class Q10844_easyStepNumber {
     }
 
     private void dpf(int length, int last) {
-        if (le
+        if (length > N) return;
+        else {
+            if (last == 0) {
+                dp[length][last] = dp[leng
