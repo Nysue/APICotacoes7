@@ -67,4 +67,7 @@ public class Q10844_easyStepNumber {
     }*/
 
 
-    p
+    public void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        int N = scanner.ne
