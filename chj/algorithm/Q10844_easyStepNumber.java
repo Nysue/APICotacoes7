@@ -77,4 +77,6 @@ public class Q10844_easyStepNumber {
         for (int i = 1; i <= 9; i++) dp[1][i] = 1;
 
         for(int length = 2; length<=N; length++){
-            for(int la
+            for(int last = 0; last < 10; last++) {
+                // 끝 숫자가 0인 경우
+                if(last == 0) dp[lengt
