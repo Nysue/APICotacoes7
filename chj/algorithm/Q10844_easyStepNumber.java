@@ -89,4 +89,7 @@ public class Q10844_easyStepNumber {
             }
         }
 
-   
+        int sum = 0;
+        for (int x : dp[N]) {
+            sum = (sum + x) % 1000000000;
+        }
