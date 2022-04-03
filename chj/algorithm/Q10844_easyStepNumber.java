@@ -93,3 +93,6 @@ public class Q10844_easyStepNumber {
         for (int x : dp[N]) {
             sum = (sum + x) % 1000000000;
         }
+        System.out.println(sum);
+    }
+}
