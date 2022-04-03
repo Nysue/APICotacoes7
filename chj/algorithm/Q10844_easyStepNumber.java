@@ -84,4 +84,9 @@ public class Q10844_easyStepNumber {
                 else if (last == 9) dp[length][last] = dp[length -1][last - 1];
                 // 그 외의 경우
                 else {
-                    dp[length][last] = (dp[length -1]
+                    dp[length][last] = (dp[length -1][last + 1] + dp[length -1][last - 1]) % 1000000000;
+                }
+            }
+        }
+
+   
