@@ -83,4 +83,5 @@ public class Q10844_easyStepNumber {
                 // 끝 숫자가 9인 경우
                 else if (last == 9) dp[length][last] = dp[length -1][last - 1];
                 // 그 외의 경우
- 
+                else {
+                    dp[length][last] = (dp[length -1]
