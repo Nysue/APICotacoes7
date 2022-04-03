@@ -56,3 +56,14 @@ public class Q10845 {
                 }
                 case "back": {
                     if (queue.isEmpty()) {
+                        System.out.println(-1);
+                    } else {
+                        System.out.println(queue.get(queue.size() - 1));
+                    }
+                    break;
+                }
+            }
+        }
+
+    }
+}
