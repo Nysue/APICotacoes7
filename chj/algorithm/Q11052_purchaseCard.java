@@ -42,3 +42,22 @@ public class Q11052_purchaseCard {
         int[] maxPrice = new int[N + 1];
 
         price[0] = maxPrice[0] = 0;
+        for (int i = 1; i <= N; i++) {
+            price[i] = scanner.nextInt();
+        }
+
+        // 점화식 : D(n) = D(n-i) + P(i), i = [1, n]
+        // D : 최대 가격, P : 카드팩의 가격, n : 사고자 하는 카드의 개수
+        // i = n인 경우는, n개 들이 카드팩을 하나만 사는 경우 (재귀적이지 않은 경우)
+        for (int i = 1; i <= N; i++) {
+            for (int j = 1; j <= i; j++) {
+                // 재귀적이지 않은 경우와 재귀적인 경우를 비교하여, 최대값을 구한다.
+                // 근데 왜 재귀적인 경우 끼리는 비교하지 않는걸까..
+                int max = Math.max(price[i], maxPrice[i - j] + price[j]);
+                if (maxPrice[i] < max) maxPrice[i] = max;
+            }
+        }
+
+        System.out.println(maxPrice[N]);
+    }
+}
