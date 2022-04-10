@@ -9,4 +9,9 @@ import java.util.Scanner;
 public class Q11066_mergeFile {
     private int[][] dp;
     private int[] chapters;
-    p
+    private int[] sum;
+
+    public void main() {
+        Scanner scanner = new Scanner(System.in);
+
+     
