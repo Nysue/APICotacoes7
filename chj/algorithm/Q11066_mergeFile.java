@@ -14,4 +14,6 @@ public class Q11066_mergeFile {
     public void main() {
         Scanner scanner = new Scanner(System.in);
 
-     
+        int T = scanner.nextInt();
+        for (int t = 0; t < T; t++) {
+            int N = scan
