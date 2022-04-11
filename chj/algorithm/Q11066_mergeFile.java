@@ -24,4 +24,8 @@ public class Q11066_mergeFile {
             chapters[0] = sum[0] = 0;
             for (int i = 1; i <= N; i++) {
                 chapters[i] = scanner.nextInt();
-                sum[i] += sum[i - 1] + chapt
+                sum[i] += sum[i - 1] + chapters[i];
+                Arrays.fill(dp[i], Integer.MAX_VALUE);
+            }
+
+        
