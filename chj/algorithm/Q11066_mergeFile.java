@@ -20,4 +20,7 @@ public class Q11066_mergeFile {
             dp = new int[N + 1][N + 1];
 
             chapters = new int[N + 1];
-            sum =
+            sum = new int[N + 1];
+            chapters[0] = sum[0] = 0;
+            for (int i = 1; i <= N; i++) {
+    
