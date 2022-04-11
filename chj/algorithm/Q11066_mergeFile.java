@@ -28,4 +28,8 @@ public class Q11066_mergeFile {
                 Arrays.fill(dp[i], Integer.MAX_VALUE);
             }
 
-        
+            System.out.println(dpf(1, N));
+        }
+    }
+
+    private int dpf(int start,
