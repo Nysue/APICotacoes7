@@ -16,4 +16,8 @@ public class Q11066_mergeFile {
 
         int T = scanner.nextInt();
         for (int t = 0; t < T; t++) {
-            int N = scan
+            int N = scanner.nextInt();
+            dp = new int[N + 1][N + 1];
+
+            chapters = new int[N + 1];
+            sum =
