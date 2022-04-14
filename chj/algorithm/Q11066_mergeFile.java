@@ -32,4 +32,8 @@ public class Q11066_mergeFile {
         }
     }
 
-    private int dpf(int start,
+    private int dpf(int start, int end) {
+        // 동일한 챕터를 묶는 경우
+        if (start >= end) return dp[start][end] = 0;
+
+        //
