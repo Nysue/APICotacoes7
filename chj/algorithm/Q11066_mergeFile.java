@@ -36,4 +36,5 @@ public class Q11066_mergeFile {
         // 동일한 챕터를 묶는 경우
         if (start >= end) return dp[start][end] = 0;
 
-        //
+        // 연속한 두 챕터를 묶는 경우
+        if (start + 1 == end) return dp[start][end] = chapters[start] + chapters[end]
