@@ -43,4 +43,5 @@ public class Q11066_mergeFile {
         for (int pivot = start; pivot < end; pivot++) {
             int left = dpf(start, pivot);
             int right = dpf(pivot + 1, end);
-   
+            // 왼쪽 부분에 대한 값 + 오른쪽 부분에 대한 값 + start에서 end까지 누적합
+            dp[start][end] = Math.min(dp[start][end], left + right + s
