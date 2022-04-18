@@ -40,4 +40,7 @@ public class Q11066_mergeFile {
         if (start + 1 == end) return dp[start][end] = chapters[start] + chapters[end];
 
         // 3챕터 이상을 묶는 경우
-        for (int pivot = start; pivot < end; pivot++) 
+        for (int pivot = start; pivot < end; pivot++) {
+            int left = dpf(start, pivot);
+            int right = dpf(pivot + 1, end);
+   
