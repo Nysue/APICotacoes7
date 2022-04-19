@@ -9,4 +9,10 @@ public class Q11399_ATM {
 
         int N = scanner.nextInt();
         int[] withdraw = new int[N];
-        for(int i=0; i<N; i++) withdraw[i
+        for(int i=0; i<N; i++) withdraw[i] = scanner.nextInt();
+
+        Arrays.sort(withdraw);
+
+        int sum = 0;
+        for(int i=0; i<N; i++){
+   
