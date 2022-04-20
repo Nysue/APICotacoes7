@@ -20,3 +20,4 @@ public class Q11399_ATM {
 
         System.out.println(sum);
     }
+}
