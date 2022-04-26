@@ -7,4 +7,6 @@ import java.util.ArrayList;
 
 public class Q11655_ROT13 {
     public void main() {
-     
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    
