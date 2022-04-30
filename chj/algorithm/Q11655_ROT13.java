@@ -9,4 +9,6 @@ public class Q11655_ROT13 {
     public void main() {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    
+        final int LARGE_A = 65;
+        final int LARGE_Z = 90;
+        final int SMALL_A = 9
