@@ -18,4 +18,7 @@ public class Q11655_ROT13 {
             StringBuilder string = new StringBuilder(br.readLine());
 
             for (int i = 0; i < string.length(); i++) {
-  
+                int ascii = string.charAt(i);
+
+                // if large alphabet
+               
