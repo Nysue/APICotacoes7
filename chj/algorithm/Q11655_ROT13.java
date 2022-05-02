@@ -15,4 +15,7 @@ public class Q11655_ROT13 {
         final int SMALL_Z = 122;
 
         try {
-            StringBuilder string = new Str
+            StringBuilder string = new StringBuilder(br.readLine());
+
+            for (int i = 0; i < string.length(); i++) {
+  
