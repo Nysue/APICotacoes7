@@ -21,4 +21,5 @@ public class Q11655_ROT13 {
                 int ascii = string.charAt(i);
 
                 // if large alphabet
-               
+                if (LARGE_A <= ascii && ascii <= LARGE_Z) {
+                    if (ascii + 13
