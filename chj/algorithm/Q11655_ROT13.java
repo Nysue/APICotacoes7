@@ -22,4 +22,5 @@ public class Q11655_ROT13 {
 
                 // if large alphabet
                 if (LARGE_A <= ascii && ascii <= LARGE_Z) {
-                    if (ascii + 13
+                    if (ascii + 13 > LARGE_Z) string.setCharAt(i, (char) (LARGE_A + (ascii + 13 - LARGE_Z - 1)));
+                    else st
