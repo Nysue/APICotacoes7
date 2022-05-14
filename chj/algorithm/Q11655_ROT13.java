@@ -30,4 +30,8 @@ public class Q11655_ROT13 {
                     else string.setCharAt(i, (char) (ascii + 13));
                 }
             }
-            Syst
+            System.out.println(string.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+  
