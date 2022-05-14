@@ -27,4 +27,7 @@ public class Q11655_ROT13 {
                 // if small alphabet
                 } else if (SMALL_A <= ascii && ascii <= SMALL_Z) {
                     if (ascii + 13 > SMALL_Z) string.setCharAt(i, (char) (SMALL_A + (ascii + 13 - SMALL_Z - 1)));
-                    else
+                    else string.setCharAt(i, (char) (ascii + 13));
+                }
+            }
+            Syst
