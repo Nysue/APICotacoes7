@@ -9,4 +9,7 @@ public class Q11727_2nTiling2 {
         int[] counts = new int[1001];
 
         counts[0] = 1;
-        counts[1] = 3
+        counts[1] = 3;
+        for (int i = 2; i < n; i++) {
+            // d(n) = d(n-1) + 2d(n-2)
+            counts[i]
