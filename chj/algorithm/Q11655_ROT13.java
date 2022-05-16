@@ -34,4 +34,5 @@ public class Q11655_ROT13 {
         } catch (IOException e) {
             e.printStackTrace();
         }
-  
+    }
+}
