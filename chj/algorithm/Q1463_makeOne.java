@@ -15,3 +15,13 @@ public class Q1463_makeOne {
         for (int i = 2; i <= input; i++) {
             // 1을 더하는 경우
             solution[i] = solution[i - 1] + 1;
+            // 2를 곱하는 경우
+            if (i % 2 == 0 && solution[i / 2] + 1 < solution[i]) solution[i] = solution[i / 2] + 1;
+            // 3을 곱하는 경우
+            if (i % 3 == 0 && solution[i / 3] + 1 < solution[i]) solution[i] = solution[i / 3] + 1;
+        }
+
+        // 결과 출력
+        System.out.println(solution[input]);
+    }
+}
