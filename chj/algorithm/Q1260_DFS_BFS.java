@@ -98,3 +98,14 @@ public class Q1260_DFS_BFS {
 
     public void printQueue() {
         System.out.print("visited : ");
+        for (Integer nodeNumber : visited) System.out.print(nodeNumber);
+        System.out.print("\nqueue : ");
+        for (Integer nodeNumber : queue) System.out.print(nodeNumber);
+        System.out.println(" ");
+    }
+
+    public void clearQueue() {
+        visited.clear();
+        queue.clear();
+    }
+}
