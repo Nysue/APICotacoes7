@@ -9,4 +9,8 @@ public class Q1920_findNumber {
     int[] target;
 
     public void main() {
-        Scanner 
+        Scanner scanner = new Scanner(System.in);
+
+        int N = scanner.nextInt();
+        set = new int[N];
+ 
