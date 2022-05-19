@@ -13,4 +13,5 @@ public class Q1920_findNumber {
 
         int N = scanner.nextInt();
         set = new int[N];
- 
+        for (int i = 0; i < N; i++) set[i] = scanner.nextInt();
+        Arrays.sort(set);
