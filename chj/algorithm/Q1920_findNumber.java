@@ -27,4 +27,8 @@ public class Q1920_findNumber {
     }
 
     private boolean binarySearch(int targetIndex, int start, int end) {
-        i
+        if (start > end) return false;
+
+        int middle = (start + end) / 2;
+
+        if (set[middle] == 
