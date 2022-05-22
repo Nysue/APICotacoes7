@@ -23,4 +23,8 @@ public class Q1920_findNumber {
         for (int i = 0; i < M; i++) {
             if(binarySearch(i, 0, N-1)) System.out.println("1");
             else System.out.println("0");
- 
+        }
+    }
+
+    private boolean binarySearch(int targetIndex, int start, int end) {
+        i
