@@ -31,4 +31,5 @@ public class Q1920_findNumber {
 
         int middle = (start + end) / 2;
 
-        if (set[middle] == 
+        if (set[middle] == target[targetIndex]) return true;
+        else if (target[targetIndex] < set[middle]) 
