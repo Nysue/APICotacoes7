@@ -32,4 +32,5 @@ public class Q1920_findNumber {
         int middle = (start + end) / 2;
 
         if (set[middle] == target[targetIndex]) return true;
-        else if (target[targetIndex] < set[middle]) 
+        else if (target[targetIndex] < set[middle]) return binarySearch(targetIndex, start, middle - 1);
+        else if (set[middle] < target[targetIndex])
