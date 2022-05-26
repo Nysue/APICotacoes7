@@ -7,4 +7,8 @@ public class Q1946_neeEmployee {
     public void main() {
         Scanner scanner = new Scanner(System.in);
 
-        int T = sca
+        int T = scanner.nextInt();
+
+        while (T-- > 0) {
+            int N = scanner.nextInt();
+            
