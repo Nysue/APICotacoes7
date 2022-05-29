@@ -14,4 +14,5 @@ public class Q1946_neeEmployee {
             ArrayList<Rank> ranking = new ArrayList<>();
 
             for (int i = 0; i < N; i++) {
-     
+                ranking.add(new Rank(scanner.nextInt(), scanner.nextInt()));
+            }
