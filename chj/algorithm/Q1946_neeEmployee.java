@@ -11,4 +11,7 @@ public class Q1946_neeEmployee {
 
         while (T-- > 0) {
             int N = scanner.nextInt();
-            
+            ArrayList<Rank> ranking = new ArrayList<>();
+
+            for (int i = 0; i < N; i++) {
+     
