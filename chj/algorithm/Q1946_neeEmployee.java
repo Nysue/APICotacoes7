@@ -20,4 +20,6 @@ public class Q1946_neeEmployee {
             // 내림차순 정렬
             ranking.sort((o1, o2) -> o2.resume - o1.resume);
 
-       
+            int newbie = 0;
+            for (int i = 0; i < N; i++) {
+                boolea
