@@ -22,4 +22,7 @@ public class Q1946_neeEmployee {
 
             int newbie = 0;
             for (int i = 0; i < N; i++) {
-                boolea
+                boolean pass = false;
+                Rank a = ranking.get(i);
+
+                for (int j = i + 1; j 
