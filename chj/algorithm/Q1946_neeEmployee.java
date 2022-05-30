@@ -25,4 +25,7 @@ public class Q1946_neeEmployee {
                 boolean pass = false;
                 Rank a = ranking.get(i);
 
-                for (int j = i + 1; j 
+                for (int j = i + 1; j < N; j++) {
+                    Rank b = ranking.get(j);
+
+                    // 만약 인터
