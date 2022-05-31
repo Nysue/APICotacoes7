@@ -35,4 +35,10 @@ public class Q1946_neeEmployee {
                     }
                 }
 
-     
+                if (pass) newbie++;
+            }
+
+            System.out.println(newbie);
+        }
+    }
+
