@@ -28,4 +28,6 @@ public class Q1946_neeEmployee {
                 for (int j = i + 1; j < N; j++) {
                     Rank b = ranking.get(j);
 
-                    // 만약 인터
+                    // 만약 인터뷰 성적 순위가 높다면 합격
+                    if (a.interview < b.interview) {
+                
