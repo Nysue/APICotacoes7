@@ -30,4 +30,9 @@ public class Q1946_neeEmployee {
 
                     // 만약 인터뷰 성적 순위가 높다면 합격
                     if (a.interview < b.interview) {
-                
+                        pass = true;
+                        break;
+                    }
+                }
+
+     
