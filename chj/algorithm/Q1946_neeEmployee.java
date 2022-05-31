@@ -42,3 +42,8 @@ public class Q1946_neeEmployee {
         }
     }
 
+    public class Rank {
+        public int resume;
+        public int interview;
+
+   
