@@ -48,4 +48,7 @@ public class Q1946_neeEmployee {
 
         public Rank(int resume, int interview) {
             this.resume = resume;
-       
+            this.interview = interview;
+        }
+    }
+}
