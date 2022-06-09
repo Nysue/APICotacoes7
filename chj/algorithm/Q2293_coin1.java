@@ -7,4 +7,6 @@ public class Q2293_coin1 {
         Scanner scanner = new Scanner(System.in);
 
         int coinNumber = scanner.nextInt();
-      
+        int targetPrice = scanner.nextInt();
+        int[] coinPrice = new int[coinNumber + 1];
+        int
