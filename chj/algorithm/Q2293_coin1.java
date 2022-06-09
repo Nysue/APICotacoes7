@@ -9,4 +9,7 @@ public class Q2293_coin1 {
         int coinNumber = scanner.nextInt();
         int targetPrice = scanner.nextInt();
         int[] coinPrice = new int[coinNumber + 1];
-        int
+        int[] counts = new int[targetPrice + 1];
+
+        for (int i = 1; i <= coinNumber; i++) {
+            c
