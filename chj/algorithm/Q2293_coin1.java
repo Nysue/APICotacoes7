@@ -40,4 +40,8 @@ public class Q2293_coin1 {
         // d(1, 5-1) + d(2, 5-2) + d(3, 5-5)
         for (int i = 1; i <= coinNumber; i++) {
             for (int j = 1; j <= targetPrice; j++) {
-                
+                if (j >= coinPrice[i]) counts[j] += counts[j - coinPrice[i]];
+            }
+        }
+
+ 
