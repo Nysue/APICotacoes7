@@ -38,4 +38,6 @@ public class Q2293_coin1 {
         counts[0] = 1;
         // 중복을 피하기 위해, 바깥 반복을 코인, 안쪽 반복을 목표 가치로 설정.
         // d(1, 5-1) + d(2, 5-2) + d(3, 5-5)
-        for (in
+        for (int i = 1; i <= coinNumber; i++) {
+            for (int j = 1; j <= targetPrice; j++) {
+                
