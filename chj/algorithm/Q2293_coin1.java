@@ -44,4 +44,6 @@ public class Q2293_coin1 {
             }
         }
 
- 
+        System.out.println(counts[targetPrice]);
+    }
+}
