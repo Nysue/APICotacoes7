@@ -1,3 +1,7 @@
 package com.company.boostcamp;
 
-i
+import java.util.Scanner;
+
+public class Q2743_wordLength {
+    public void main(){
+  
