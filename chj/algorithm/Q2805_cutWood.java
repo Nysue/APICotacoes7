@@ -1,3 +1,8 @@
 package com.company.boostcamp;
 
-impor
+import java.util.Scanner;
+
+public class Q2805_cutWood {
+    int N;
+    int[] woods;
+    int height;
