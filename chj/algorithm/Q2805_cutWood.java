@@ -18,4 +18,7 @@ public class Q2805_cutWood {
         height = 0;
         // 이진탐색 호출을 위한 최대 높이
         int maxHeight = 0;
-    
+        // 나무 배열
+        woods = new int[N];
+        for (int i = 0; i < N; i++) {
+  
