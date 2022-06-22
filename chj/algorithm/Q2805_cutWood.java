@@ -22,4 +22,8 @@ public class Q2805_cutWood {
         woods = new int[N];
         for (int i = 0; i < N; i++) {
             woods[i] = scanner.nextInt();
-            if (woods[i] > maxHeight) maxHeight = 
+            if (woods[i] > maxHeight) maxHeight = woods[i];
+        }
+        binarySearch(length, 0, maxHeight);
+
+        System.out.println(height);
