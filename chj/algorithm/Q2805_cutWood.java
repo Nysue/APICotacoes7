@@ -27,3 +27,7 @@ public class Q2805_cutWood {
         binarySearch(length, 0, maxHeight);
 
         System.out.println(height);
+    }
+
+    private void binarySearch(int length, int start, int end) {
+        if (start > end) r
