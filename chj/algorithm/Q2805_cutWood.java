@@ -21,4 +21,5 @@ public class Q2805_cutWood {
         // 나무 배열
         woods = new int[N];
         for (int i = 0; i < N; i++) {
-  
+            woods[i] = scanner.nextInt();
+            if (woods[i] > maxHeight) maxHeight = 
