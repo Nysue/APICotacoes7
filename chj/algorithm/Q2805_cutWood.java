@@ -13,4 +13,9 @@ public class Q2805_cutWood {
         // 나무의 개수
         N = scanner.nextInt();
         // 원하는 길이
-        int length = scanner.nex
+        int length = scanner.nextInt();
+        // 최적의 높이
+        height = 0;
+        // 이진탐색 호출을 위한 최대 높이
+        int maxHeight = 0;
+    
