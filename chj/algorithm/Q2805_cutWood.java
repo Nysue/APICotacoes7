@@ -30,4 +30,9 @@ public class Q2805_cutWood {
     }
 
     private void binarySearch(int length, int start, int end) {
-        if (start > end) r
+        if (start > end) return;
+
+        int middle = (start + end) / 2;
+
+        // 잘려진 길이를 구한다
+        int rema
