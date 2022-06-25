@@ -36,4 +36,6 @@ public class Q2805_cutWood {
 
         // 잘려진 길이를 구한다
         int remain = 0;
-        for (int i = 0; i < N; i++) if (woods[i] > middle) remain += woods[i
+        for (int i = 0; i < N; i++) if (woods[i] > middle) remain += woods[i] - middle;
+
+        System.out.println(String.format("length : %d, remain : %d, %d~%d~%d, height : %d", length, r
