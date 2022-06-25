@@ -35,4 +35,5 @@ public class Q2805_cutWood {
         int middle = (start + end) / 2;
 
         // 잘려진 길이를 구한다
-        int rema
+        int remain = 0;
+        for (int i = 0; i < N; i++) if (woods[i] > middle) remain += woods[i
