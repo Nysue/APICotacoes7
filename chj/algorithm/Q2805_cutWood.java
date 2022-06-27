@@ -38,4 +38,8 @@ public class Q2805_cutWood {
         int remain = 0;
         for (int i = 0; i < N; i++) if (woods[i] > middle) remain += woods[i] - middle;
 
-        System.out.println(String.format("length : %d, remain : %d, %d~%d~%d, height : %d", length, r
+        System.out.println(String.format("length : %d, remain : %d, %d~%d~%d, height : %d", length, remain, start,middle, end,height));
+
+        if (length <= remain) {
+            height = middle;
+            
