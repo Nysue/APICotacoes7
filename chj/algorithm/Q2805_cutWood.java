@@ -42,4 +42,6 @@ public class Q2805_cutWood {
 
         if (length <= remain) {
             height = middle;
-            
+            binarySearch(length, middle + 1, end);
+        } else if (remain < length) {
+     
