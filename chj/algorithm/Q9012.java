@@ -12,4 +12,6 @@ public class Q9012 {
         Stack<Character> stack = new Stack<>();
 
         try {
-            int instruc
+            int instructions = Integer.parseInt(br.readLine());
+
+            for (int i = 0; i < instructions; i++) 
