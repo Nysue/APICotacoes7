@@ -14,4 +14,6 @@ public class Q9012 {
         try {
             int instructions = Integer.parseInt(br.readLine());
 
-            for (int i = 0; i < instructions; i++) 
+            for (int i = 0; i < instructions; i++) {
+                String instruction = br.readLine();
+                boolean balanc
