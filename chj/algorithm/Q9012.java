@@ -16,4 +16,7 @@ public class Q9012 {
 
             for (int i = 0; i < instructions; i++) {
                 String instruction = br.readLine();
-                boolean balanc
+                boolean balance = true;
+
+                for (int j = 0; j < instruction.length(); j++) {
+        
