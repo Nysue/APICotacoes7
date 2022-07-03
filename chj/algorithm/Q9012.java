@@ -19,4 +19,6 @@ public class Q9012 {
                 boolean balance = true;
 
                 for (int j = 0; j < instruction.length(); j++) {
-        
+                    if (instruction.charAt(j) == '(') {
+                        stack.push('(');
+                  
