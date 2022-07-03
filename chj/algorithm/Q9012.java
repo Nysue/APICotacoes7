@@ -21,4 +21,6 @@ public class Q9012 {
                 for (int j = 0; j < instruction.length(); j++) {
                     if (instruction.charAt(j) == '(') {
                         stack.push('(');
-                  
+                    } else if (instruction.charAt(j) == ')') {
+                        if (stack.empty()) {
+     
