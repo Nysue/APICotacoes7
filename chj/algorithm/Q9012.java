@@ -23,4 +23,6 @@ public class Q9012 {
                         stack.push('(');
                     } else if (instruction.charAt(j) == ')') {
                         if (stack.empty()) {
-     
+                            balance = false;
+                            break;
+                     
