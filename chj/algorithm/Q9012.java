@@ -25,4 +25,7 @@ public class Q9012 {
                         if (stack.empty()) {
                             balance = false;
                             break;
-                     
+                        } else {
+                            stack.pop();
+                        }
+         
