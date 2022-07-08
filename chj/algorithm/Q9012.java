@@ -28,4 +28,7 @@ public class Q9012 {
                         } else {
                             stack.pop();
                         }
-         
+                    }
+                }
+
+                if (balance && stack.empty()) System.out.println("YES
