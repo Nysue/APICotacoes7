@@ -38,3 +38,5 @@ public class Q9012 {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+}
