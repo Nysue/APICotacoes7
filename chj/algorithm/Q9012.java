@@ -31,4 +31,7 @@ public class Q9012 {
                     }
                 }
 
-                if (balance && stack.empty()) System.out.println("YES
+                if (balance && stack.empty()) System.out.println("YES");
+                else System.out.println("NO");
+                stack.clear();
+  
