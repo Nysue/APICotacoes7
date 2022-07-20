@@ -7,4 +7,9 @@ public class Q9095_123add {
         Scanner scanner = new Scanner(System.in);
 
         int testCases = scanner.nextInt();
-        int[] counts = new in
+        int[] counts = new int[12];
+
+        // make solution array
+        counts[0] = 0;
+        counts[1] = 1;
+        counts[2] = 2;
