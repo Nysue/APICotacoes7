@@ -15,4 +15,9 @@ public class Q9095_123add {
         counts[2] = 2;
         counts[3] = 4;
         for (int i = 4; i < 12; i++) {
-            counts[i] = counts[i - 1] + counts[i - 2] + counts[i
+            counts[i] = counts[i - 1] + counts[i - 2] + counts[i - 3];
+        }
+
+        // print solution
+        for(int i=0;i<testCases; i++){
+     
