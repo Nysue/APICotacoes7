@@ -20,4 +20,7 @@ public class Q9095_123add {
 
         // print solution
         for(int i=0;i<testCases; i++){
-     
+            System.out.println(counts[scanner.nextInt()]);
+        }
+    }
+}
