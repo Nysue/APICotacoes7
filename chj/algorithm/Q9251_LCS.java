@@ -10,4 +10,5 @@ public class Q9251_LCS {
         String b = scanner.next();
         int[][] matrix = new int[a.length() + 1][b.length() + 1];
 
-       
+        for (int i = 0; i < a.length() + 1; i++) {
+            for (int j = 0; j < b.length() + 1
