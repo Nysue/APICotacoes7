@@ -11,4 +11,6 @@ public class Q9251_LCS {
         int[][] matrix = new int[a.length() + 1][b.length() + 1];
 
         for (int i = 0; i < a.length() + 1; i++) {
-            for (int j = 0; j < b.length() + 1
+            for (int j = 0; j < b.length() + 1; j++) {
+                if (i == 0 || j == 0) matrix[i][j] = 0;
+                else if (a.c
