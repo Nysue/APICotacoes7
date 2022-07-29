@@ -14,4 +14,8 @@ public class Q9251_LCS {
             for (int j = 0; j < b.length() + 1; j++) {
                 if (i == 0 || j == 0) matrix[i][j] = 0;
                 else if (a.charAt(i - 1) == b.charAt(j - 1)) matrix[i][j] = matrix[i - 1][j - 1] + 1;
-                else if (a.charAt(i - 1) != b.charAt(j - 1)) matrix[i][j] = Math.max(matrix[i - 1][j],
+                else if (a.charAt(i - 1) != b.charAt(j - 1)) matrix[i][j] = Math.max(matrix[i - 1][j], matrix[i][j - 1]);
+            }
+        }
+
+        System.out.println(matrix[a.lengt
