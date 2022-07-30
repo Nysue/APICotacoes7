@@ -18,4 +18,7 @@ public class Q9251_LCS {
             }
         }
 
-        System.out.println(matrix[a.lengt
+        System.out.println(matrix[a.length()][b.length()]);
+    }
+
+}
