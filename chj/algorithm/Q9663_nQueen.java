@@ -16,4 +16,8 @@ public class Q9663_nQueen {
 
         queen(0);
 
-        System.o
+        System.out.println(count);
+    }
+
+    // 임의의 열에 퀸을 배치한 row에 대해, promising한지 검사합니다
+    private void queen(int row
