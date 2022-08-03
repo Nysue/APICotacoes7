@@ -10,4 +10,10 @@ public class Q9663_nQueen {
     public void main() {
         Scanner scanner = new Scanner(System.in);
 
-        N = scan
+        N = scanner.nextInt();
+        cols = new int[N + 1];
+        count = 0;
+
+        queen(0);
+
+        System.o
