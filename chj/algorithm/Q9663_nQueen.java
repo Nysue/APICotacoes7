@@ -20,4 +20,6 @@ public class Q9663_nQueen {
     }
 
     // 임의의 열에 퀸을 배치한 row에 대해, promising한지 검사합니다
-    private void queen(int row
+    private void queen(int row) {
+        // 배치된 퀸이 다른 퀸과 충돌하는 경우
+        if (!promising(row)) return;
