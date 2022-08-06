@@ -23,3 +23,7 @@ public class Q9663_nQueen {
     private void queen(int row) {
         // 배치된 퀸이 다른 퀸과 충돌하는 경우
         if (!promising(row)) return;
+
+        // 다른 퀸과 충돌하지 않으면서, 마지막 행에 퀸을 배치한 경우
+        if (row == N) {
+            // 해당 노드가 
