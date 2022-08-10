@@ -31,3 +31,6 @@ public class Q9663_nQueen {
                 System.out.println(String.format("[%d, %d]", i, cols[i]));
             }
             count++;
+        } else {
+            for (int i = 1; i <= N; i++) {
+                // 현재 행까지는 배치가 완료되었으며, 다음
