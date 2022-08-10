@@ -33,4 +33,7 @@ public class Q9663_nQueen {
             count++;
         } else {
             for (int i = 1; i <= N; i++) {
-                // 현재 행까지는 배치가 완료되었으며, 다음
+                // 현재 행까지는 배치가 완료되었으며, 다음 행에 임의로 배치 후 promising한지 검사합니다
+                cols[row + 1] = i;
+                queen(row + 1);
+   
