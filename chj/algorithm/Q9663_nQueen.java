@@ -28,4 +28,6 @@ public class Q9663_nQueen {
         if (row == N) {
             // 해당 노드가 해에 해당하는 경우, 각 퀸의 위치를 출력합니다.
             for (int i = 1; i <= N; i++) {
-             
+                System.out.println(String.format("[%d, %d]", i, cols[i]));
+            }
+            count++;
