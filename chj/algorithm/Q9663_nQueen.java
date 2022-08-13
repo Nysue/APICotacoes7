@@ -46,4 +46,6 @@ public class Q9663_nQueen {
         // 0번째 행에는 퀸을 배치하지 않으므로, true를 반환합니다
         if (row == 0) return true;
 
-        for (int i = 1; i < row; 
+        for (int i = 1; i < row; i++) {
+            // 같은 열에 다른 퀸이 존재하는지 검사합니다.
+            if (cols[row] == cols[i]) return fals
