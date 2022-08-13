@@ -50,4 +50,8 @@ public class Q9663_nQueen {
             // 같은 열에 다른 퀸이 존재하는지 검사합니다.
             if (cols[row] == cols[i]) return false;
             // 대각선에 다른 퀸이 존재하는지 검사합니다.
-            else if (row - i == Math.abs(cols[row] - cols[i])) ret
+            else if (row - i == Math.abs(cols[row] - cols[i])) return false;
+        }
+        return true;
+    }
+}
