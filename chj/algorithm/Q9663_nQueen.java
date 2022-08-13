@@ -41,4 +41,6 @@ public class Q9663_nQueen {
     }
 
     // 해당 함수가 호출된 row에 대해, row-1번째 퀸까지는 정상적으로 배치되었음을 전제로 합니다.
-    // 즉, r
+    // 즉, row번째 퀸과 그 이전의 퀸들과 충돌 여부만 검사하면 됩니다.
+    private boolean promising(int row) {
+        // 0번째 행
