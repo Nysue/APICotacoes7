@@ -1,3 +1,7 @@
 def main():
     ans = 0
-    mys
+    mystack = []
+    flag = False
+    paren = input()
+    intstack = []
+    answer = 
