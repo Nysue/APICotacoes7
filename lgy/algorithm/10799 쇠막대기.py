@@ -20,4 +20,8 @@ def main():
 
                     continue
                 intstack.pop()
-        
+                ans += len(intstack)
+
+            else:
+                ans += intstack[-1]
+                intstack.pop(
