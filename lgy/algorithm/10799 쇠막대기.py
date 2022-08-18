@@ -12,4 +12,7 @@ def main():
             intstack.append(1)
             flag = True
 
-        if ch == '
+        if ch == ')':
+            mystack.pop()
+            if flag:
+                if len(mystack
