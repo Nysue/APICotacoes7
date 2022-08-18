@@ -4,4 +4,8 @@ def main():
     flag = False
     paren = input()
     intstack = []
-    answer = 
+    answer = 0
+    last = 0
+    for idx, ch in enumerate(paren):  # O(n)
+        if ch == '(':
+       
