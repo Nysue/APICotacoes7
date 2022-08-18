@@ -15,4 +15,9 @@ def main():
         if ch == ')':
             mystack.pop()
             if flag:
-                if len(mystack
+                if len(mystack) == 0:
+                    intstack.pop()
+
+                    continue
+                intstack.pop()
+        
