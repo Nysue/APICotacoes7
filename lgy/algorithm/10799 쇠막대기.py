@@ -24,4 +24,10 @@ def main():
 
             else:
                 ans += intstack[-1]
-                intstack.pop(
+                intstack.pop()
+
+            flag = False
+    print(ans)
+
+
+main()
