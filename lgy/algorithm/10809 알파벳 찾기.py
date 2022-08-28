@@ -9,4 +9,12 @@ def main():
 
     for i in range(97, 97+26):
         if chr(i) in mymap.keys():
-            print(my
+            print(mymap[chr(i)], end=' ')
+        else:
+            print('-1', end=' ')
+
+main()
+
+
+
+
