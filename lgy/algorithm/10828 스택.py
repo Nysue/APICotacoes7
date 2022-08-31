@@ -14,4 +14,16 @@ def pop(my_list):
     return ret
 
 def size(my_list):
-    return len(my_lis
+    return len(my_list)
+
+
+def top(my_list):
+    if len(my_list):
+        return my_list[-1]
+    else:
+        return -1
+
+
+
+
+def main():
