@@ -8,4 +8,10 @@ def pop(my_list):
     ret = 0
     if len(my_list):
         ret = my_list[-1]
-      
+        del my_list[-1]
+    else:
+        ret = -1
+    return ret
+
+def size(my_list):
+    return len(my_lis
