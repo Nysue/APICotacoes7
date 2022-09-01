@@ -30,4 +30,7 @@ def main():
     my_list = []
     for x in range(int(input())):
         line = input().split(' ')
-  
+        if line[0] == "push":
+            push(my_list, line[1])
+        elif line[0] == "pop":
+   
