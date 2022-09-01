@@ -27,3 +27,7 @@ def top(my_list):
 
 
 def main():
+    my_list = []
+    for x in range(int(input())):
+        line = input().split(' ')
+  
