@@ -33,4 +33,6 @@ def main():
         if line[0] == "push":
             push(my_list, line[1])
         elif line[0] == "pop":
-   
+            print(pop(my_list))
+        elif line[0] == "size":
+            print(size(my_li
