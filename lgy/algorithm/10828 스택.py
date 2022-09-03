@@ -35,4 +35,7 @@ def main():
         elif line[0] == "pop":
             print(pop(my_list))
         elif line[0] == "size":
-            print(size(my_li
+            print(size(my_list))
+        elif line[0] == "empty":
+            print(empty(my_list))
+        elif li
