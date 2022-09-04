@@ -38,4 +38,7 @@ def main():
             print(size(my_list))
         elif line[0] == "empty":
             print(empty(my_list))
-        elif li
+        elif line[0] == "top":
+            print(top(my_list))
+
+main()
