@@ -10,4 +10,9 @@ def main():
 
     ans = 0
     dp = [0 for i in range()]
-    for i in ra
+    for i in range(len(v1)):
+        for j in range(len(v2)):
+            pass
+
+user_input = '''
+abc
