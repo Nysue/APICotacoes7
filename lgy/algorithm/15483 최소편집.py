@@ -16,3 +16,20 @@ def main():
 
 user_input = '''
 abc
+ab
+'''
+
+expected = '''
+1
+'''
+
+user_input2 = '''
+ca
+abc
+'''
+
+expected2 = '''
+3
+'''
+
+T.runningTest(user_inpu
