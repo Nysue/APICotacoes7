@@ -32,4 +32,5 @@ expected2 = '''
 3
 '''
 
-T.runningTest(user_inpu
+T.runningTest(user_input.strip(), expected.lstrip(), main)
+T.runningTest(user_input2.strip(), expected2.lstrip(), main)
