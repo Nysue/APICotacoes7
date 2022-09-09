@@ -1,2 +1,4 @@
 import sys
-s
+sys.path.append('.')
+
+from lgy.algorithm.StdIOTestContainer import StdIOTestContainer 
