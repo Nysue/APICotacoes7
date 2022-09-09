@@ -13,4 +13,8 @@ def main2():
     mumbers = [int(i) for i in input().split(' ')]
 
     numbers.sort()
-    sorted_m 
+    sorted_m = sorted(mumbers)
+    index = dict(zip(mumbers, [0 for i in range(len(mumbers))]))
+
+
+    f
