@@ -8,4 +8,9 @@ def main2():
 
     numbers = [int(i) for i in input().split(' ')]
 
- 
+    m = int(input())
+
+    mumbers = [int(i) for i in input().split(' ')]
+
+    numbers.sort()
+    sorted_m 
