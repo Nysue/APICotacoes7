@@ -17,4 +17,8 @@ def main2():
     index = dict(zip(mumbers, [0 for i in range(len(mumbers))]))
 
 
-    f
+    for i in numbers:
+        for j in sorted_m:
+            if j > i:
+                break
+      
