@@ -38,4 +38,8 @@ def main():
 
     m = int(input())
 
-    mumbers = [int(i) for i in
+    mumbers = [int(i) for i in input().split(' ')]
+
+
+    number_dict = set(numbers)
+    index = dict(zip(mumbers, [0
