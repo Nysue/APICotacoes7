@@ -21,4 +21,9 @@ def main2():
         for j in sorted_m:
             if j > i:
                 break
-      
+            if j < i:
+                continue
+            if j == i:
+                index[j] = 1
+
+ 
