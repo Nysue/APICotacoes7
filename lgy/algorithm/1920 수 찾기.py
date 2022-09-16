@@ -34,4 +34,8 @@ def main2():
 def main():
     n = int(input())
 
-    numbers = [int(
+    numbers = [int(i) for i in input().split(' ')]
+
+    m = int(input())
+
+    mumbers = [int(i) for i in
