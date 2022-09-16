@@ -26,4 +26,12 @@ def main2():
             if j == i:
                 index[j] = 1
 
- 
+    for i in index.values():
+        print(i)
+
+
+
+def main():
+    n = int(input())
+
+    numbers = [int(
