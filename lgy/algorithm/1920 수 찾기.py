@@ -47,4 +47,13 @@ def main():
 
     for i in mumbers:
         if i in number_dict:
-        
+            index[i] = 1
+
+    for i in index.values():
+        print(i)
+
+
+
+user_input = '''
+2
+0 5
