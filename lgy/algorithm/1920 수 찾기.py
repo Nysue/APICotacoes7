@@ -42,4 +42,9 @@ def main():
 
 
     number_dict = set(numbers)
-    index = dict(zip(mumbers, [0
+    index = dict(zip(mumbers, [0 for i in range(len(mumbers))]))
+
+
+    for i in mumbers:
+        if i in number_dict:
+        
