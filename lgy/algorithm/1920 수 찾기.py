@@ -57,3 +57,13 @@ def main():
 user_input = '''
 2
 0 5
+2
+0 5
+'''
+
+expected = '''
+1
+1
+'''
+
+T.runningTest(user_input.strip(), expected.lstrip(), mai
