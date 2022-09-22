@@ -66,4 +66,4 @@ expected = '''
 1
 '''
 
-T.runningTest(user_input.strip(), expected.lstrip(), mai
+T.runningTest(user_input.strip(), expected.lstrip(), main)
