@@ -12,4 +12,9 @@ def main():
     location.sort()
 
     left = 1
-    right = location[n-1] - 
+    right = location[n-1] - location[0]
+
+    mid = 0
+    ans = 0
+    while left <= right:
+        mid = (left + 
