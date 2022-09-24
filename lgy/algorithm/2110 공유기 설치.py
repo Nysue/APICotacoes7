@@ -17,4 +17,9 @@ def main():
     mid = 0
     ans = 0
     while left <= right:
-        mid = (left + 
+        mid = (left + right)//2
+        cnt = 1
+        index = location[0]
+
+        for i in range(1, n):
+         
