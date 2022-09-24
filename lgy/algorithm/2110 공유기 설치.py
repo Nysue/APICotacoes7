@@ -22,4 +22,8 @@ def main():
         index = location[0]
 
         for i in range(1, n):
-         
+            if location[i] - index >= mid:
+                cnt += 1
+                index = location[i]
+
+        
