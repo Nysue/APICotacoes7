@@ -26,4 +26,6 @@ def main():
                 cnt += 1
                 index = location[i]
 
-        
+        if cnt >= count:
+            ans = mid
+            left = mid + 1
