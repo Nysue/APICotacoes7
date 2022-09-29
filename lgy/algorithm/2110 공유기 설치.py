@@ -43,3 +43,8 @@ user_input = '''
 9
 '''
 
+expected = '''
+3
+'''
+
+T.runningTest(user_input.strip(), expected.lstrip(), main)
