@@ -29,3 +29,17 @@ def main():
         if cnt >= count:
             ans = mid
             left = mid + 1
+        else:
+            right = mid - 1
+
+    print(ans)
+
+user_input = '''
+5 3
+1
+2
+8
+4
+9
+'''
+
