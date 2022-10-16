@@ -15,4 +15,9 @@ def main():
         newin[b] += 1
 
     queue = []
-    for i in range
+    for i in range(1, n+1):
+        if not newin[i]:
+            queue.append(i)
+
+    while queue:
+        t = queue
