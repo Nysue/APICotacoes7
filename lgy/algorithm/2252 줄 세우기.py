@@ -20,4 +20,10 @@ def main():
             queue.append(i)
 
     while queue:
-        t = queue
+        t = queue.pop(0)
+
+        ans.append(t)
+
+        for k in edge[t]:
+            newin[k] -= 1
+     
