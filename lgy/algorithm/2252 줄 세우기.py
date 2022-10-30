@@ -26,4 +26,16 @@ def main():
 
         for k in edge[t]:
             newin[k] -= 1
-     
+            if newin[k] == 0:
+                queue.append(k)
+
+    print(*ans)
+
+
+
+user_input = '''
+3 2
+1 3
+2 3
+'''
+
