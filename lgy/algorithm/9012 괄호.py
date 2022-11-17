@@ -21,3 +21,6 @@ def main():
             if len(mystack) == 0:
                 print('YES')
             else:
+                print('NO')
+
+main()
