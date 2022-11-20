@@ -14,3 +14,8 @@ class Queen:
             return True
 
     def dfs(row):
+        if row == n:
+            ans[0] += 1
+        else:
+            for i in range(0, n):
+              
