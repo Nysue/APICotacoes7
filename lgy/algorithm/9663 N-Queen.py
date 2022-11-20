@@ -5,4 +5,7 @@ class Queen:
 
     def possible(row):
         for i in range(0, row):
-            if col[i] == co
+            if col[i] == col[row]:
+                return False
+
+            if abs(col[i] - col[row]) == abs(i - row)
