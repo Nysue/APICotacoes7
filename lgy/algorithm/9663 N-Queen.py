@@ -8,4 +8,9 @@ class Queen:
             if col[i] == col[row]:
                 return False
 
-            if abs(col[i] - col[row]) == abs(i - row)
+            if abs(col[i] - col[row]) == abs(i - row):
+                return False
+        else:
+            return True
+
+    def dfs(row):
