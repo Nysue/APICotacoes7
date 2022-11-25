@@ -18,4 +18,8 @@ class Queen:
             ans[0] += 1
         else:
             for i in range(0, n):
-              
+                col[row] = i
+                if possible(row):
+                    dfs(i + 1)
+
+    de
