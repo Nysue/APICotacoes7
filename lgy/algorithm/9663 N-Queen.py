@@ -22,4 +22,9 @@ class Queen:
                 if possible(row):
                     dfs(i + 1)
 
-    de
+    def main():
+        dfs(0)
+        print(ans[0])
+
+
+
