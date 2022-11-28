@@ -10,4 +10,8 @@ logger.level = logging.DEBUG
 
 class StdIOTestContainer(unittest.TestCase):
     @staticmethod
-   
+    def formated(lines):
+        return list(lines.splitlines())
+
+    @staticmethod
+    def r
