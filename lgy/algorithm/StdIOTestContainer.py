@@ -5,4 +5,9 @@ import sys
 import logging
 
 logger = logging.getLogger()
-logge
+logger.level = logging.DEBUG
+
+
+class StdIOTestContainer(unittest.TestCase):
+    @staticmethod
+   
