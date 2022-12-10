@@ -14,4 +14,5 @@ class StdIOTestContainer(unittest.TestCase):
         return list(lines.splitlines())
 
     @staticmethod
-    def r
+    def runFunction(user_input, func):
+        with patch('builtins
