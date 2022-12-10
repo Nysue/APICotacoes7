@@ -15,4 +15,4 @@ class StdIOTestContainer(unittest.TestCase):
 
     @staticmethod
     def runFunction(user_input, func):
-        with patch('builtins
+        with patch('builtins.input', side_effect=StdIOTestContainer.formated(user_input)), patch('sys.stdout', new_ca
