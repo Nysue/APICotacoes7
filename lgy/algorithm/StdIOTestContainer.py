@@ -21,4 +21,5 @@ class StdIOTestContainer(unittest.TestCase):
         return out.getvalue()
 
     @staticmethod
-    def 
+    def runningTest(user_input, expected, func):
+        actual = StdIOTestContainer.runF
