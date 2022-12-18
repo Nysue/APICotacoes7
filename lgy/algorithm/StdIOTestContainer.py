@@ -22,4 +22,7 @@ class StdIOTestContainer(unittest.TestCase):
 
     @staticmethod
     def runningTest(user_input, expected, func):
-        actual = StdIOTestContainer.runF
+        actual = StdIOTestContainer.runFunction(user_input, func)
+
+        testCase = unittest.TestCase()
+        testCase.ass
