@@ -25,4 +25,9 @@ class StdIOTestContainer(unittest.TestCase):
         actual = StdIOTestContainer.runFunction(user_input, func)
 
         testCase = unittest.TestCase()
-        testCase.ass
+        testCase.assertEqual(expected, actual)
+
+        StdIOTestContainer.info("done")
+
+    @staticmethod
+    def in
