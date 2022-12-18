@@ -30,4 +30,6 @@ class StdIOTestContainer(unittest.TestCase):
         StdIOTestContainer.info("done")
 
     @staticmethod
-    def in
+    def info(msg):
+        stream_handler = logging.StreamHandler(sys.stderr)
+        logger.addHandler
