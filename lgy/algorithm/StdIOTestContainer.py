@@ -32,4 +32,8 @@ class StdIOTestContainer(unittest.TestCase):
     @staticmethod
     def info(msg):
         stream_handler = logging.StreamHandler(sys.stderr)
-        logger.addHandler
+        logger.addHandler(stream_handler)
+
+        try:
+            logging.getLogger().info(msg)
+        f
