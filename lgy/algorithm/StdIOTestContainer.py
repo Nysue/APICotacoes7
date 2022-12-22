@@ -36,4 +36,12 @@ class StdIOTestContainer(unittest.TestCase):
 
         try:
             logging.getLogger().info(msg)
-        f
+        finally:
+            logger.removeHandler(stream_handler)
+
+
+"""
+import sys
+sys.path.append('.')
+
+f
