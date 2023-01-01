@@ -44,4 +44,6 @@ class StdIOTestContainer(unittest.TestCase):
 import sys
 sys.path.append('.')
 
-f
+from lgy.algorithm.StdIOTestContainer import StdIOTestContainer as T
+
+def ma
