@@ -46,4 +46,12 @@ sys.path.append('.')
 
 from lgy.algorithm.StdIOTestContainer import StdIOTestContainer as T
 
-def ma
+def main():
+
+user_input = '''
+'''
+
+expected = '''
+'''
+
+T.runningTest(user_input.strip(), ex
