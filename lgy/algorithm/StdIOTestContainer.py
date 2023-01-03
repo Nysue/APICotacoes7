@@ -54,4 +54,5 @@ user_input = '''
 expected = '''
 '''
 
-T.runningTest(user_input.strip(), ex
+T.runningTest(user_input.strip(), expected.lstrip(), main)
+"""
